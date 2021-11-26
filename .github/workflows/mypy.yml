@@ -19,7 +19,7 @@ jobs:
 
       - name: Install static analysis dependencies
         run: |
-          pip install mypy
+          pip install mypy types-mock
 
       - name: Run mypy
         run: |
