@@ -23,5 +23,5 @@ jobs:
 
       - name: Run mypy
         run: |
-          mypy *
+          mypy *.py
 
