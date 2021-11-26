@@ -23,5 +23,5 @@ jobs:
 
       - name: Run pylint
         run: |
-          pylint --fail-under=8 *
+          pylint --fail-under=8 *.py
 
