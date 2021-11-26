@@ -17,7 +17,7 @@ jobs:
         with:
           python-version: "3.10"
 
-      - name: Install test dependencies
+      - name: Install test coverage dependencies
         run: |
           pip install pytest mock pytest-cov
 
